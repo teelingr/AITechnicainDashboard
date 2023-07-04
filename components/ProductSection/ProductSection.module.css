@@ -1,0 +1,77 @@
+.productSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+  z-index: 0;
+}
+
+.productSection li {
+  display: flex;
+  text-align: left; /* Align the text to the left */
+  font-family: "Poppins";
+  list-style: none;
+  vertical-align: auto;
+  padding-left: 20px;
+  font-size: 21px;
+}
+
+.productSection li:first-child {
+  font-family: "Poppins";
+  list-style: none;
+  font-weight: bold; /* Use font-weight for bold */
+  vertical-align: auto;
+  font-size: 24px;
+}
+
+.productSectionHeader {
+  margin: 10px;
+  width: 100%;
+  color: var(--color-title);
+}
+  .productSectionHeader p {
+    color: var(--color-title);
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+.productSectionMain {
+    background-color: var(--color-product-panel);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between; /* This will spread your columns horizontally */
+    gap: 20px;
+}
+
+.productSectionButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.productSectionColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) of the container */
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-left: 2px solid var(--color-accent);
+}
+
+.productSectionColumn:first-child{
+  border-left: none; /* Remove the border for the last column */
+}
+
+.productSectionColumn h3 {
+  padding: 10px 20px;
+}

@@ -1,0 +1,28 @@
+
+.light-theme {
+	background: var(--color-background-light);
+    --color-title: var(--color-title-light);
+    --color-text: var(--color-text-light);
+    --color-button: var(--color-button-dark);
+    --color-action-button: var(--color-action-button-light);
+    --color-nav-background: var(--color-nav-background-light);
+    --color-text-product: var(--color-text-product-light);
+    --color-nav-text: var(--color-nav-text-light);
+    --color-search: var(--color-search-light);
+    --color-text-secondary: var(--color-text-secondary-light);
+    --color-activity-background: var(--color-activity-background-light);
+}
+
+.dark-theme {
+	background: var(--color-background-dark);
+    --color-text-product: var(--color-text-product-dark);
+    --color-title: var(--color-title-dark);
+    --color-text: var(--color-text-dark);
+    --color-button: var(--color-button-dark);
+    --color-action-button: var(--color-action-button-dark);
+    --color-nav-background: var(--color-nav-background-dark);
+    --color-nav-text: var(--color-nav-text-dark);
+    --color-search: var(--color-search-dark);
+    --color-text-secondary: var(--color-text-secondary-dark);    
+    --color-activity-background: var(--color-activity-background-dark);
+}

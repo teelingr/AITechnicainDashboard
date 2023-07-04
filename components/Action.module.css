@@ -1,0 +1,59 @@
+.action {
+    width: 300px;
+    height: 80px;
+    background: var(--color-button-action);
+     
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    /* border: 1px solid #000; */
+}
+    .action:hover {
+        cursor: pointer;
+        height: 90px;
+        font-weight: bold;
+    }
+    .action span {
+        font-family: 'Poppins';
+        list-style: none;
+        font-size: 19px;
+    }
+    .icon {
+        width: 35px;
+
+        margin-left: 15px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* border: 1px solid #000; */
+    }
+    .text {
+        margin-left: 15px;
+        vertical-align: middle;
+    }
+
+    .selectedAction {
+        background-color: var(--color-accent);
+        width: 300px;
+        height: 100px;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-top: 20px;
+
+        color: var(--color-text);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+        /* Add any additional styles for the selected action */
+    }

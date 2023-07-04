@@ -1,0 +1,32 @@
+.pane {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 600px;
+	height: 300px;
+	background-color: rgb(255, 255, 255);
+	padding: 1rem;
+	border: 1px solid #f40101;
+	border-radius: 4px;
+	z-index: 1;
+	overflow: auto;
+    font-family: 'Poppins';
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.textarea {
+	width: 100%;
+	height: calc(100% - 2rem); /* Adjust for title */
+	border: none;
+	resize: none;
+	padding: 1rem;
+    font-family: 'Poppins';
+	font-size: 1.25rem;
+    background-color: rgb(255, 252, 222);
+    background-image: linear-gradient(#00000034 1px, transparent 1px); /* Notepad lines */
+    line-height: 1.5em; /* Adjust to match the gradient */
+    background-size: 100% 1.5em;
+}

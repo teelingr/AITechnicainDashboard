@@ -1,0 +1,52 @@
+/* colors.css */ 
+
+:root {
+  --color-primary: #d0d0d0; /* off white */
+  --color-secondary: #383838; /* grey */
+  --color-accent: rgba(219, 16, 16, 0.8); /* red */
+
+  /* text colours */
+  /*--color-secondary: #383838; /* grey */
+  --color-accent: #e01b1b; /* red */
+  --color-text-activity-panel: #252525;
+  --color-text-activity-title-panel: #ce1212;
+
+  /* button and panel colours */
+  --color-button-product: rgba(226, 0, 0, 0.8);
+  --color-button-product-active: rgba(169, 6, 6, 0.8);
+  --color-button-action: rgba(237, 237, 237, 0.8);
+  --color-button-action-clicked: rgba(219, 16, 16, 0.9);
+  --color-button-panel:  rgba(255, 255, 255, 0.8);
+  --color-product-panel:  rgba(255, 255, 255, 0.5);
+  --color-button-hover: #ce1212;
+  --color-panel: #f1f1f1;
+  --color-open-button:  #ffffffce;
+  --color-open-button-border:  #b0b0b0ce;
+
+  /* Themes */
+  /* Light theme */
+  --color-background-light: #b7b7b7;
+  --color-text-light: var(--color-secondary);
+  --color-nav-background-light: #9c9c9c;
+  --color-nav-text-light: var(--color-secondary);   
+  --color-text-product-light: #303030; 
+  --color-search-light: #ffffffce;
+  --color-text-search-light: #3d3d3d;
+  --color-action-button-light: #dedada;
+  --color-text-secondary-light: #2a2727;
+  --color-title-light: #2a2727;
+
+  /* Dark theme */
+  --color-background-dark: #424242; /* Almost Black */
+  --color-title-dark: #ffffff;
+  --color-text-dark: #303030;
+  --color-text-product-dark: #f5f5f5;
+  --color-button-dark: #d3d1d1;
+  --color-action-button-dark: #dedada;
+  --color-nav-background-dark: #303030;
+  --color-search-dark: #f4f4f4db;
+  --color-text-search-dark: #f5f5f5;
+  --color-text-secondary-dark: #090909;
+  --color-nav-text-dark-dark: var(--color-secondary);
+  --color-activity-background-dark: #adaaaa;
+}

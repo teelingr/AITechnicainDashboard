@@ -1,0 +1,48 @@
+.activeActionPanel {
+    background: var(--color-button-action);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 97%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s cubic-bezier(0.77, 0, 0.175, 1);
+    /* border: 1px solid #000; */
+}
+
+.activeActionPanel h2{
+    font-weight: bolder;
+    font-size: 38px;
+}
+    .activeActionPanelHeader {
+        height: 65px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+		justify-content: space-between;
+        /* border: 1px solid #000; */
+    }
+		.closeBtn {
+			background: none;
+			border: none;
+			margin-right: 30px;
+            font-weight: bold;
+            color: var(--color-text-activity-title-panel);
+
+            background-color: transparent;
+            border: none;
+            outline: none;
+		}
+			.closeBtn:hover {
+				cursor: pointer;
+			}
+
+    .activeActionPanel:hover {
+        width: 98%;
+    }
+
+    .activeActionPanel h2 {
+        margin-left: 30px;
+        color: var(--color-text-activity-title-panel);
+    }

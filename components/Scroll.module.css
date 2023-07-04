@@ -1,0 +1,6 @@
+.scroll {
+	display: flex;
+	gap: 40px;
+	padding: 80px 40px;
+    transition: background-color 0.5s;
+  }

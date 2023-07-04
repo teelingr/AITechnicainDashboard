@@ -1,0 +1,91 @@
+.remoteService input[type="text"] {
+    height: 30px;
+    width: 400px;
+    color: black; /* set text color */
+    background-color: #F5F6F9;
+
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    outline: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    transition: width 0.5s, background-color 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+ 
+
+        .remoteService input[type="text"]:focus {
+        width: 420px; /* set expanded width */
+        caret-color: black;
+        color: black;
+        }
+
+        .remoteService button {
+            width: 260px;
+            height: 40px;
+            background-color: var(--color-button);
+            color: var(--color-text-activity-panel);
+
+            border: 0px solid #005F84;
+            border-radius: 5px;
+            padding: 5px 5px;
+            margin-left: 30px;
+            
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+        }
+            .remoteService button:hover {
+                background-color: var(--color-button-hover);
+                color: var(--color-text);
+                width: 270px;
+            }
+
+    .remoteService h3 {
+	color: var( --color-text-activity-panel);
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .remoteService p {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.link {
+    font-family: 'Poppins';
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.openButton {
+    background-color: var(--color-open-button);
+    color: var(--color-text-activity-panel );
+	font-family: 'Poppins';
+    border-radius: 15px;
+    border: 1px solid var(--color-open-button-border);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    width: 300px;
+    height: 30px;
+}
+
+    .openButton:hover {
+      background-color: var(--color-accent);
+      color: var(--color-text);
+      font-weight: bold;
+
+    }

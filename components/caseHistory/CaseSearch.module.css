@@ -1,0 +1,14 @@
+.caseSearch p {
+    margin-left: 10px;
+}
+
+.search{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-button-panel);
+    color: var(--color-text-activity-panel);
+    border: 1px solid var(--color-open-button-border);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px;
+}
