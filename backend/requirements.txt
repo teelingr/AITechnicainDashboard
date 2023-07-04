@@ -1,0 +1,10 @@
+flask==2.2.3
+flask-cors==3.0.10
+python-dotenv==1.0.0
+openai==0.27.0
+google-cloud-speech==2.19.0
+docx2pdf==0.1.8
+python-docx==0.8.11
+wave==0.0.2
+pyaudio
+watchdog==3.0.0

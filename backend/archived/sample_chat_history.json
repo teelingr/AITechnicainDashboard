@@ -1,0 +1,22 @@
+{
+    "chat": [
+        "converation started",
+        "hello there this is the SEW-hotline how can I help you today",
+        " hi I'm having a problem with my motor it is from you guys at sew I need help with it",
+        " okay no problem sir we are going to work through this today so can you start by giving me the serial number of the product",
+        " sure no problem the serial number is 0 1.186 to 591 + 9   ",
+        " 01",
+        " .000 1.13                ",
+        " okay thank you very much sir I'm I'm entering that in now are you from Volkswagen ",
+        " yes we're from Volkswagen and the product is a Mobi modec and yes I can see that there",
+        " okay",
+        " so let's go through the process what is wrong with the motor is there any fault code",
+        " yes there is a fault code the fault code is f08",
+        " okay let me search that up now",
+        " I see if you have fault code f08 you are required to let me see",
+        " you are required to replace the motor",
+        " okay so I need to replace the motor",
+        " yes sir you need to replace the motor",
+        " okay thank you very much for your help"
+    ]
+}

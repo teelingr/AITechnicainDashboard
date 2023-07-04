@@ -1,0 +1,127 @@
+{
+  "products": {
+    "Gearmotors/Motors/Gear units": {
+      "Gearmotors": {
+        "Standard Gearmotors": [
+          "AC gearmotors",
+          "AC gearmotors (single-phase motors)",
+          "AC gearmotors (LSPM technology)",
+          "Synchronous gearmotors DR2C"
+        ]
+      },
+      "Motors": {
+        "Standard Motors": [
+          "AC motors",
+          "AC motors (Single-phase motors)",
+          "AC motors (LSPM technology)",
+          "Synchronous motor DR2C",
+          "Synchronous servomotors",
+          "Asynchronous servomotors",
+          "Synchronous stainless steel servomotors"
+        ]
+      },
+      "Gear units": {
+        "Standard gear units": [
+          "Helical, parallel-shaft helical, helical-bevel, helical-worm, and Spiroplan gear units",
+          "Servo bevel and planetary gear units",
+          "Servo planetary gear unit PxG®"
+        ]
+      },
+      "Explosion-proof designs": {
+        "Standard explosion-proof designs": [
+          "AC gearmotors",
+          "AC motors",
+          "Helical, parallel-shaft helical, helical-bevel, helical-worm, and Spiroplan gear units",
+          "Servo bevel and planetary gear units"
+        ]
+      },
+      "Decentralized drives / mechatronics": {
+        "Standard decentralized drives / mechatronics": [
+          "MOVIGEAR® performance",
+          "MOVIGEAR® classic",
+          "MOVIMOT® advanced",
+          "MOVIMOT® performance",
+          "MOVIMOT®",
+          "MOVI-SWITCH®",
+          "ECDriveS®",
+          "MOVIGEAR® B",
+          "DRC.. electronic motor"
+        ]
+      },
+      "Servo drive technology": {
+        "Standard servo drive technology": [
+          "Synchronous gearmotors",
+          "Asynchronous gearmotors",
+          "Synchronous stainless steel gearmotors"
+        ]
+      },
+      "Industrial Gears": {
+        "Standard industrial gears": [
+          "Helical gear unit / Bevel-helical gear unit"
+        ]
+      }
+    },
+    "Inverter technology": {
+      "Application inverters": {
+        "Control cabinet": [
+        "MOVIDRIVE® modular",
+        "MOVIDRIVE® technology",
+        "MOVIDRIVE® system",
+        "MOVIDRIVE® B",
+        "MOVIAXIS®"
+        ],
+        "Decentralized": [
+          "MOVIFIT®-FC Technology"
+        ]
+      },
+      "Standard Inverters": {
+        "Control cabinet": [
+          "MOVITRAC® advanced",
+          "MOVITRAC® B ",
+          "MOVITRAC® LTP-B"
+        ],
+        "Decentralized / Wall mounting": [
+          "MOVIMOT® flexible",
+          "MOVIFIT®-FC Classic",
+          "MOVITRAC® LTP-B",
+          "MOVIPRO® SDC",
+          "MOVIMOT® (Mounting close to the motor)"
+        ]
+      },
+      "Basic inverter/Motor starter": {
+        "Control cabinet": [
+          "MOVITRAC® LTE-B"
+        ],
+        "Decentralized / Wall mounting": [
+          "MOVIFIT®-SC",
+          "MOVITRAC® LTE-B",
+          "MOVI4R-U®",
+          "MOVIFIT® compact",
+          "MOVI-SWITCH® (Mounting close to the motor)"
+        ]
+      }
+    },
+    "Software / Control technology": {
+      "MOVI-C® control software": {
+        "MOVI-C® control software packages": [
+          "MOVIRUN® software platform",
+          "MOVIKIT® software module",
+          "Application level inverter technology"
+        ]
+      },
+      "Control technology": {
+        "Control cabinet": [
+          "MOVI-C® CONTROLLER",
+          "Visualization",
+          "MOVI-PLC® I/O-System C",
+          "MOVI-PLC®",
+          "Gateway"
+        ],
+        "Decentralized": [
+          "MOVIFIT®-MC",
+          "MOVIFIT®-FDC"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "staff": {
+      "Thorsten Schmidt": {
+        "avatar": "https://trinakoster.com/wp-content/uploads/2017/04/College-Auto-Tech-Staff-Portrait-1-320x214.jpg",
+        "safety certifications": {
+            "Manual Handling Certificate": "2022-08-24",
+            "Safe Pass Certificate": "2024-02-11",
+            "Lathe Operator Certificate": "2023-12-21"
+        },
+        "product skills": {
+          "MOVIMOT A": ["installation", "Commissioning"],
+          "MOVIMOT B": ["installation", "Commissioning"]
+        },
+        "username": "thorsten08",
+        "password": "password"
+      },
+      "Bjorn Kloff": {
+        "avatar": "https://i.pinimg.com/736x/4d/98/a6/4d98a63c47842754af38765d2d9349c4.jpg",
+        "safety certifications": {
+            "Manual Handling Certificate": "2023-08-24",
+            "Safe Pass Certificate": "2024-05-11",
+            "Lathe Operator Certificate": "2022-09-21"
+        },
+        "product skills": {
+          "MOVIMOT A": ["installation", "Commissioning"],
+          "MOVIMOT B": ["installation", "Commissioning"],
+          "MOVIMOT C": ["installation", "Commissioning"]
+        },
+        "username": "bjorn18",
+        "password": "password"
+      }
+    }
+  }

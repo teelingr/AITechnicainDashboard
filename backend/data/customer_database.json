@@ -1,0 +1,70 @@
+{
+  "customers": {
+    "Dublin Airport": {
+      "address": "Swords, Co. Dublin, Ireland",
+      "customer_type": ["end-customer"],
+      "service_partner": "Alperton Engineering Ltd",
+      "logo": "https://www.dublinairport.com/images/default-source/at-the-airport-images/security-campaign/t2-wide-angle-view-with-car---1000px.jpg?sfvrsn=914ac119_1",
+      "serial_numbers": {
+        "KA87 DRE132MC4": {
+          "product_type": "MOVIFIT®-FC Classic",
+          "product_image": "",
+          "model_number": "M1234",
+          "date_issued": "2016-02-14",
+          "no_of_repairs": 5,
+          "repair_dates": [
+            "2017-08-16",              
+            "2018-09-09",
+            "2020-09-12",
+            "2021-10-03",
+            "2022-09-25"
+          ]
+      },
+        "FA37DRN90L4": {
+          "product_type": "Parallel Shaft Helical Gear Unit",
+          "product_image": "",
+          "model_number": "M5678",
+          "date_issued": "2017-02-15",
+          "no_of_repairs": 1,
+          "repair_dates": [
+            "2018-03-05"
+          ]
+        }
+      }
+    },
+    "D\u00fcrr Poland": {
+      "address": "Stanisława Żółkiewskiego 125, 26-617 Radom, Poland",
+      "customer_type": ["customer"],
+      "logo": ["https://www.durr.com/fileadmin/_processed_/b/b/csm_211109-duerr-ecopaintjet-pro_359a54939b.jpg"],
+      "serial_numbers": {
+        "MCX91A-0070-2E1-4-T00/000/DI/CSB/CFN": {
+          "product_type": "MOVILINK® DDI",
+          "product_image": "",
+          "model_number": "M0515",
+          "date_issued": "2013-03-01",
+          "no_of_repairs": 1,
+          "repair_dates": [
+            "2019-03-05"
+          ]
+        }
+      }
+    },
+    "Alperton Engineering Ltd": {
+      "address": "Dublin Industrial Estate, 48 Moyle Road, Cabra East, Glasnevin Co. Dublin, Ireland",
+      "customer_type": ["customer"],
+      "logo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?output=thumbnail&cb_client=maps_sv.tactile.gps&panoid=vis-xKlwP1MgYKV5Ya47-A&w=588&h=290&thumb=2&yaw=8.151542&pitch=0",
+      "serial_numbers": {
+        "R37DRN90L4/MSW/CK0/AND3/TF": {
+          "product_type": "MOVI-SWITCH®",
+          "product_image": "",
+          "model_number": "M0515",
+          "date_issued": "2013-03-01",
+          "no_of_repairs": 1,
+          "repair_dates": [
+            "2019-03-05"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+    
+    "F01": {
+        "possible_reasons": [
+            "1. Short circuit at output",
+            "2. Motor too large",
+            "3. Defective output stage",
+            "4. Ramp limit is deactivated and set ramp time is too short"
+        ],
+        "activities": [
+            "1. Rectify the short circuit",
+            "2. Connect a smaller motor",
+            "3. Contact SEW Service for advice if the output stage is defective",
+            "4. Activate P138 and/or increase ramp time"
+        ]
+    },
+    "F02": {
+        "possible_reasons": [
+            "1. Ground fault in the motor lead",
+            "2. Ground fault in the inverter",
+            "3. Ground fault in the motor"
+        ],
+        "activities": [
+            "1. Eliminate ground fault",
+            "2. Consult SEW Service"
+        ]
+    },
+    "F03": {
+        "possible_reasons": [
+            "1. Too much regenerative power",
+            "2. Braking resistor circuit interrupted",
+            "3. Short circuit in the braking resistor circuit",
+            "4. Brake resistor has too high resistance",
+            "5. Brake chopper is defective"
+        ],
+        "activities": [
+            "1. Extend deceleration ramps",
+            "2. Check feeder cable to braking resistor",
+            "3. Check technical data of braking resistor",
+            "4. Replace MOVIDRIVE® if the brake chopper is defective"
+        ]
+    },
+    "F04": {
+        "possible_reasons": [
+            "1. Too much regenerative power.     ",
+            "2. Braking resistor circuit interrupted.    ",
+            "3. Short circuit in braking resistor circuit.     ",
+            "4. Braking resistor has too high resistance.     ",
+            "5. Brake chopper is defective. "
+        ],
+        "activities": [
+            "1. Extend deceleration ramps.    ",
+            "2. Check supply cable to braking resistor.    ",
+            "3. Check technical data of braking resistor.     ",
+            "4. Replace the MOVIDRIVE unit.     "
+        ]
+    },
+    "F06": {
+        "possible_reasons": [
+            "1. Phase failure. "
+        ],
+        "activities": [
+            "1. Check the supply system cable. "
+        ]
+    },
+    "F07": {
+        "possible_reasons": [
+            "1. DC link voltage too high."
+        ],
+        "activities": [
+            "1. Extend deceleration ramps",
+            "2. Check supply cable to the braking resistor. ",
+            "3. Check technical data of braking resistor. "
+        ]
+    },
+    "F08": {
+        "possible_reasons": [
+            "1. Actual speed exceeded \"Maximum speed at motor shaft\" limit (index 8560.9/8361.9). This limit value is set at startup matching motor and gear unit. "
+        ],
+        "activities": [
+            "1. Reduce load. ",
+            "2. Increase deceleration time. ",
+            "3. Check current limitation. ",
+            "4. Extend deceleration ramps. ",
+            "5. Check motor cable and motor. ",
+            "6. Check line phases. "
+        ]
+    },
+    "F10": {
+        "possible_reasons": [
+            "1. Incorrect command detected during IPOSplus® program execution.",
+            "2. Incorrect conditions during command execution."
+        ],
+        "activities": [
+            "1. Check the content of the program memory and, if necessary, correct.",
+            "2. Load the correct program into the program memory.",
+            "3. Check program sequence (→ IPOSplus® manual)"
+        ]
+    },
+    
+    "F11": {
+        "possible_reasons": [
+            "1. Thermal overload of inverter"
+        ],
+        "activities": [
+            "1. Reduce load and/or provide for adequate cooling."
+        ]
+    },
+    "F13": {
+        "possible_reasons": [
+            "1. Control signal source not defined or defined incorrectly."
+        ],
+        "activities": [
+            "1. Set correct control signal source (P101)."
+        ]
+    },
+    "F14": {
+        "possible_reasons": [
+          "1. Encoder cable or shield not connected correctly",
+          "2. Short circuit/broken encoder wire",
+          "3. Encoder defective"
+        ],
+        "activities": [
+          "1. Check encoder cable and shield for correct connection, short circuit and broken wire"
+        ]
+    },
+    "F17": {
+        "possible_reasons": [
+            "1. Inverter electronics disrupted, possibly due to effect of EMC"
+        ],
+        "activities": [
+            "1. Check ground connections and shielding and correct, if necessary. Contact SEW service if this error occurs again."
+        ]
+    },
+    "F25": {
+        "possible_reasons": [
+        "1. Access to the EEPROM of the memory card has failed"
+        ],
+        "activities": [
+        "1. Activate factory settings, perform reset and reset parameters.",
+        "2. Contact SEW service if the error occurs again.",
+        "3. Replace memory card."
+        ]
+    },
+    "F27": {
+        "possible_reasons": [
+            "The motor is overloaded. "
+        ],
+        "activities": [
+            "1. Open the circuit. ",
+            "2. Limit switches are swapped over in relation to direction of rotation of motor. ",
+            "3. Check wiring of limit switches. ",
+            "4. Reprogram terminals. "
+        ]
+    },
+    "F28": {
+        "possible_reasons": [
+            "1. No communication between master and slave within the projected response monitoring."
+        ],
+        "activities": [
+            "1. Check communication routine of the master",
+            "2. Extend fieldbus timeout time (P819) or deactivate monitoring"
+        ]
+    }
+}
